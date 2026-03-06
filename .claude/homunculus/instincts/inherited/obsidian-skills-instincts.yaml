@@ -1,0 +1,474 @@
+# Instincts generated from https://github.com/Wallisking1991/obsidian-skills
+# Generated: 2026-03-06T01:26:07.812Z
+# Version: 2.0
+
+---
+id: obsidian-skills-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Commit Length
+
+## Action
+
+Keep commit messages concise (under 50 characters)
+
+## Evidence
+
+- Average commit message length: 38 chars
+- Based on 35 commits
+
+---
+id: obsidian-skills-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Naming Files
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: PascalCase
+
+---
+id: obsidian-skills-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Export Style
+
+## Action
+
+Prefer mixed exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: mixed
+
+---
+id: obsidian-skills-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: obsidian-skills-workflow-feature-development
+trigger: "when implementing a new feature"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Feature Development
+
+## Action
+
+Follow the feature-development workflow:
+1. Add feature implementation
+2. Add tests for feature
+3. Update documentation
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~9x per month
+- Files: 
+
+---
+id: obsidian-skills-workflow-single-skill-documentation-update
+trigger: "when doing single skill documentation update"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Single Skill Documentation Update
+
+## Action
+
+Follow the single-skill-documentation-update workflow:
+1. Identify skill needing update
+2. Modify SKILL.md file
+3. Commit with descriptive message
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~8x per month
+- Files: skills/*/SKILL.md
+
+---
+id: obsidian-skills-workflow-readme-enhancement
+trigger: "when doing readme enhancement"
+confidence: 0.8
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Readme Enhancement
+
+## Action
+
+Follow the readme-enhancement workflow:
+1. Identify documentation gap
+2. Update README.md
+3. Commit with clear description
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~6x per month
+- Files: README.md
+
+---
+id: obsidian-skills-workflow-plugin-version-update
+trigger: "when doing plugin version update"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Plugin Version Update
+
+## Action
+
+Follow the plugin-version-update workflow:
+1. Update plugin.json
+2. Update marketplace.json
+3. Commit version changes
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: .claude-plugin/plugin.json, .claude-plugin/marketplace.json
+
+---
+id: obsidian-skills-workflow-multi-skill-quality-improvement
+trigger: "when doing multi skill quality improvement"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Multi Skill Quality Improvement
+
+## Action
+
+Follow the multi-skill-quality-improvement workflow:
+1. Run evaluation tooling
+2. Update multiple SKILL.md files
+3. Extract reference materials to references/ directory
+4. Commit with detailed metrics
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: skills/*/SKILL.md, skills/*/references/*.md
+
+---
+id: obsidian-skills-workflow-skill-structure-standardization
+trigger: "when doing skill structure standardization"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Workflow Skill Structure Standardization
+
+## Action
+
+Follow the skill-structure-standardization workflow:
+1. Identify non-conforming skills
+2. Update multiple SKILL.md files simultaneously
+3. Update README if needed
+4. Commit with alignment description
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: README.md, skills/*/SKILL.md
+
+---
+id: obsidian-skills-pascal-case-files
+trigger: "When creating new TypeScript files"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Pascal Case Files
+
+## Action
+
+Use PascalCase naming convention for file names
+
+## Evidence
+
+- Consistent PascalCase pattern in TypeScript files
+- Established naming convention in codeStyle analysis
+
+---
+id: obsidian-skills-camel-case-functions
+trigger: "When defining functions in TypeScript"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Camel Case Functions
+
+## Action
+
+Use camelCase naming convention for function names
+
+## Evidence
+
+- Consistent camelCase pattern for functions
+- Established naming convention in codeStyle analysis
+
+---
+id: obsidian-skills-screaming-snake-constants
+trigger: "When defining constants in TypeScript"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Screaming Snake Constants
+
+## Action
+
+Use SCREAMING_SNAKE_CASE naming convention for constants
+
+## Evidence
+
+- Consistent SCREAMING_SNAKE_CASE pattern for constants
+- Established naming convention in codeStyle analysis
+
+---
+id: obsidian-skills-freeform-commits
+trigger: "When making any commit"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Freeform Commits
+
+## Action
+
+Write freeform commit messages without strict conventional format
+
+## Evidence
+
+- Commit examples show freeform style
+- Average length 38 characters
+- Mix of feat:, docs:, chore:, and plain messages
+
+---
+id: obsidian-skills-docs-prefix
+trigger: "When updating documentation"
+confidence: 0.7
+domain: git
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Docs Prefix
+
+## Action
+
+Prefix commit message with 'docs' or 'docs(scope):'
+
+## Evidence
+
+- docs prefix appears in commit patterns
+- Example: 'docs(obsidian-bases): add Duration type documentation'
+
+---
+id: obsidian-skills-single-skill-update
+trigger: "When someone wants to improve documentation for one specific skill"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Single Skill Update
+
+## Action
+
+Modify the corresponding skills/*/SKILL.md file and commit with descriptive message
+
+## Evidence
+
+- Highest frequency workflow (8x/month)
+- Clear pattern of single SKILL.md updates
+
+---
+id: obsidian-skills-readme-enhancement
+trigger: "When someone wants to improve project documentation or add setup methods"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Readme Enhancement
+
+## Action
+
+Update README.md with the new information and commit with clear description
+
+## Evidence
+
+- 6x/month frequency
+- Consistent README.md updates for setup instructions
+
+---
+id: obsidian-skills-plugin-version-bump
+trigger: "When plugin needs marketplace update"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Plugin Version Bump
+
+## Action
+
+Update both .claude-plugin/plugin.json and .claude-plugin/marketplace.json files
+
+## Evidence
+
+- Clear plugin update workflow
+- Both files consistently updated together
+- Marketplace compatibility requirement
+
+---
+id: obsidian-skills-quality-improvement
+trigger: "When conducting quality review across multiple skills"
+confidence: 0.8
+domain: workflow
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Quality Improvement
+
+## Action
+
+Run evaluation tooling, update multiple SKILL.md files, and extract references to references/ directories
+
+## Evidence
+
+- Multi-skill improvement pattern
+- Reference extraction to references/ folders
+- Commit: 'feat: improve skill quality scores across 4 skills'
+
+---
+id: obsidian-skills-standardization
+trigger: "When skills need to conform to Agent Skills specification"
+confidence: 0.75
+domain: workflow
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Standardization
+
+## Action
+
+Update multiple SKILL.md files simultaneously and update README if needed
+
+## Evidence
+
+- Pattern of simultaneous multi-file updates
+- Alignment with specification standards
+- 2x/month frequency
+
+---
+id: obsidian-skills-separate-test-location
+trigger: "When writing tests"
+confidence: 0.6
+domain: testing
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Separate Test Location
+
+## Action
+
+Place test files in separate location from source files
+
+## Evidence
+
+- Architecture shows testLocation: 'separate'
+- No test examples in commit patterns suggest infrequent testing
+
+---
+id: obsidian-skills-skills-folder-structure
+trigger: "When organizing skill-related files"
+confidence: 0.9
+domain: architecture
+source: repo-analysis
+source_repo: Wallisking1991/obsidian-skills
+---
+
+# Obsidian Skills Skills Folder Structure
+
+## Action
+
+Place skill files in 'skills' folder and plugin files in '.claude-plugin' folder
+
+## Evidence
+
+- Common folders: skills, .claude-plugin
+- Consistent skills/*/SKILL.md pattern in workflows
+
